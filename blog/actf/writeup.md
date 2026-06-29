@@ -13,7 +13,7 @@ The challenge was meant to be easy (no KASLR and pretty straight forward), with 
 
 So here’s the only code that I changed which actually matters in the module:
 
-> the challenge is in [here](github.com), try it yourself!
+> the challenge is in [here](https://github.com/migthchangeitlater/migthchangeitlater.github.io/blob/main/blog/actf/chall/handout/README.md), try it yourself!
 
 ```C
 static long dev_ioctl(struct file *file, unsigned int cmd, unsigned long arg) {
